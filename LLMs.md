@@ -4,7 +4,7 @@
 
 - Most LLMs nowadays are built on the Transformer architecture - a deep learning architecture based on the "Attention" algorithm.
 
-![Transformer](image.png)
+![Transformer](images/image.png)
 
 
 - Three types of transformers
@@ -40,7 +40,7 @@ _3. Seq2Seq(Encoder-decoder)_:
 
 * The most important of those is the End of sequence token.
 
-[tokens]](image-1.png)
+[tokens]](images/image-1.png)
 
 
 ## Next token prediction
