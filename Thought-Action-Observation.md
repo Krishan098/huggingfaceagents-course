@@ -12,10 +12,10 @@
 ## The Thought-Action-Observation Cycle
 
 - the three components work together in a continuous loop. The agent uses a while loop: the loop continues until the objective of the agent has been fulfilled.
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 - In many Agent frameworks, the rules and guidelines are embedded directly into the system prompt, ensuring thtat every cycle adheres to a defined logic.
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 - The system message has:
     * The Agent's behaviour
@@ -45,7 +45,7 @@
 - The Agent's thoughts are responsible for accessing current observations and decide what the next action(s)should be. 
 - Through this process, the agent can break down comolex problems into smaller, more manageable steps, reflect on past experiences and continuously adjust its plans based on new information.
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 ## The ReAct approach
 - concatenationn of reaoning with acting
 - Simple prompting technique that appends "let's think step by step" before letting the LLM decode the nexr tokens.
@@ -55,9 +55,9 @@
 
 - Wheter it's browsing the web for information or controlling a physical device, each action is a deliberate operation executed by the agent.
 
-- ![alt text](image-8.png)
+- ![alt text](images/image-8.png)
 
-- ![alt text](image-9.png)
+- ![alt text](images/image-9.png)
 
 - For an agent to work properly, the LLM must STOP generating new tokens after emitting all the tokens to define a complete action. 
 
@@ -74,7 +74,7 @@
 - An alternative approach is using Code Agents.
 - The idea is: instead of outputting a simpple JSON object, a Code Agent generares ab executable code block- typically in a high-level language like python.
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 - Advantages offered :
     * Expressiveness: Code can naturally represent complex logic, including loops, conditionals and nested functions, providing greater flexibility.
@@ -97,7 +97,7 @@
 
 - This iterative incorporation of feedback ensures the agent remains dynamically aligned with its goals, constantly learning and adjusting based on real-world outcomes.
 
-![Observations](image-11.png)
+![Observations](images/image-11.png)
 
 ## How are the results appended
 
