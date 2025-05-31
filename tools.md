@@ -44,7 +44,7 @@
 
 - Use _@tool_ decorator before the function definiton to indicate a tool.
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 # MODEL CONTEXT PROTOCOL: a unified tool interface
 

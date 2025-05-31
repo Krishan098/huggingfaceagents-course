@@ -1,6 +1,6 @@
 # Messages and special tokens
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## Chat templates:
 
