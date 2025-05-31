@@ -40,7 +40,7 @@ _3. Seq2Seq(Encoder-decoder)_:
 
 * The most important of those is the End of sequence token.
 
-[tokens]](images/image-1.png)
+[tokens](images/image-1.png)
 
 
 ## Next token prediction
