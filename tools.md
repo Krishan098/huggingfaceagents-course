@@ -53,3 +53,27 @@
     - A growing list of pre-built integrations that your LLM can directly plug into.
     - The flexibility to switch between LLM providers and vendors.
     - Best practices for securing your data within your infrastructure.
+
+- To interact with a tool, the LLM needs an interface description with these key components:
+    - Name: What the tool is called
+    - Tool description: What the tool does
+    - Input types and descriptions: What arguments the tool accepts
+    - Output type: what the tool returns
+
+- ![alt text](image-1.png)
+
+## Tool creation methods
+
+1. Using the @tool decorator for simple function-based tools
+2. Creating a subclass of Tool for more complex functionality.
+
+### The @tool decorator
+
+- Smolagents will parse basic information about the function from Python. 
+
+- We define the function with:
+    - A clear and descriptive function name that helps the LLM understand its purpose
+    - Type hints for both inputs and outputs to ensure proper usage.
+    - A detailed description, including an Args: section where each argument is explicitly described. These descriptions provide valuable context for the LLM, so it's important to write them carefully.
+
+    
