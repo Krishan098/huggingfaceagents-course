@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "arize-phoenix>=10.10.0",
+    "chromadb>=0.6.3",
     "duckduckgo-search>=8.0.2",
     "google>=3.0.0",
     "google-search-results>=2.4.2",
@@ -17,6 +18,8 @@ dependencies = [
     "llama-index-callbacks-arize-phoenix>=0.5.1",
     "llama-index-embeddings-huggingface>=0.5.4",
     "llama-index-llms-huggingface-api>=0.5.0",
+    "llama-index-tools-google>=0.3.1",
+    "llama-index-tools-mcp>=0.2.5",
     "llama-index-vector-stores-chroma>=0.4.2",
     "matplotlib>=3.10.3",
     "openinference-instrumentation-smolagents>=0.1.12",
