@@ -15,6 +15,7 @@ dependencies = [
     "ipywidgets>=8.1.7",
     "langchain>=0.3.25",
     "langchain-community>=0.3.25",
+    "langgraph>=0.4.8",
     "llama-index-callbacks-arize-phoenix>=0.5.1",
     "llama-index-embeddings-huggingface>=0.5.4",
     "llama-index-llms-huggingface-api>=0.5.0",
