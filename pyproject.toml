@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "arize-phoenix>=10.10.0",
     "chromadb>=0.6.3",
+    "datasets>=3.6.0",
     "duckduckgo-search>=8.0.2",
     "google>=3.0.0",
     "google-search-results>=2.4.2",
@@ -15,6 +16,7 @@ dependencies = [
     "ipywidgets>=8.1.7",
     "langchain>=0.3.25",
     "langchain-community>=0.3.25",
+    "langchain-huggingface>=0.3.0",
     "langchain-openai>=0.3.25",
     "langfuse>=3.0.4",
     "langgraph>=0.4.8",
